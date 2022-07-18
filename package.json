@@ -1,0 +1,58 @@
+{
+    "name": "sourcebae",
+    "version": "1.0.0",
+    "description": "Sourcebae from Shethink",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jayesh-Patidar/one-sourcing.git"
+    },
+    "keywords": [
+        "Sourcebae",
+        "Shethink"
+    ],
+    "author": "jayesh@shethink.in",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Jayesh-Patidar/one-sourcing/issues"
+    },
+    "homepage": "https://github.com/Jayesh-Patidar/one-sourcing#readme",
+    "dependencies": {
+        "aws-sdk": "^2.1103.0",
+        "bcryptjs": "^2.4.3",
+        "change-case": "^4.1.2",
+        "cors": "^2.8.5",
+        "crypto-js": "^4.1.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-rate-limit": "^6.4.0",
+        "express-validator": "^6.10.0",
+        "fcm-node": "^1.6.1",
+        "handlebars": "^4.7.7",
+        "json2csv": "^5.0.6",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1",
+        "mongoose": "^5.12.1",
+        "mongoose-aggregate-paginate-v2": "^1.0.42",
+        "mongoose-paginate": "^5.0.3",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.2",
+        "mysql2": "^2.3.3",
+        "node-cron": "^3.0.0",
+        "node-rsa": "^1.1.1",
+        "nodemailer": "^6.6.2",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0",
+        "pluralize": "^8.0.0",
+        "sequelize": "^6.21.3",
+        "sequelize-cli": "^6.4.1",
+        "validatorjs": "^3.22.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
