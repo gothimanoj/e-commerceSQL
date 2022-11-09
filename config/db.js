@@ -22,7 +22,7 @@ const sequelize = new Sequelize(dbName, username, password, {
     idle: pool.idle,
   },
 });
-sequelize.sync().then(() => {
+sequelize.sync({force:false,alter:{drop:false}}).then(() => {
     console.log("re-sync db.");
   });
 sequelize.authenticate()

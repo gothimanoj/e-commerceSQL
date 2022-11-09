@@ -7,7 +7,7 @@ module.exports = {
             res.success = true;
             results[0] = "success";
         }
-
+        //  console.log(res);
         return res.status(res.code).json({
             success: res.success,
             code: res.code,

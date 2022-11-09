@@ -13,6 +13,7 @@ const modules = readdirSync(modulesPath).filter((path) =>
   statSync(join(modulesPath, path)).isDirectory()
 );
 
+
 app.use(
   cors({
     origin: ["development", "staging"].includes(env("environment"))

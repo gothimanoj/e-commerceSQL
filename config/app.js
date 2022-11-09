@@ -1,12 +1,14 @@
 const morgan = require("morgan");
 const express = require("express");
 const env = require("../environment");
+const path  =require('path');
 const app = express();
 // require("../helpers/encryption");
 app
   .use(express.json())
   .use(express.urlencoded({ extended: true }))
-  .use("/media", express.static("./media"));
+  .use("/media", express.static("./media"))
+  .use(express.static(path.join(__dirname,"public")));
 
 // Dev logging middleware
 if (["development", "staging"].includes(env("environment"))) {
